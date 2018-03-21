@@ -12,6 +12,10 @@ import { AboutComponent } from './about/about.component';
 import { StoresComponent } from './stores/stores.component';
 import { StoreComponent } from './stores/store/store.component';
 import { StoresService } from './stores/stores.service';
+import { StoreDetailComponent } from './store-detail/store-detail.component';
+import { MenuComponent } from './store-detail/menu/menu.component';
+import { ShoppingCartComponent } from './store-detail/shopping-cart/shopping-cart.component';
+import { MenuItemComponent } from './store-detail/menu-item/menu-item.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { StoresService } from './stores/stores.service';
     HomeComponent,
     AboutComponent,
     StoresComponent,
-    StoreComponent
+    StoreComponent,
+    StoreDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MenuItemComponent
   ],
   imports: [
     BrowserModule,

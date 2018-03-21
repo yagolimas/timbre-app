@@ -56,7 +56,7 @@
       "name": "Bateria Pearl",
       "description": "Bateria Preta Pearl",
       "price": 2.5,
-      "storeId": ""
+      "storeId": "ludwig"
     },
     {
       "id": "rogue",
@@ -64,7 +64,7 @@
       "name": "Bateria Rogue",
       "description": "Bateria Preta Rogue",
       "price": 5.5,
-      "storeId": ""
+      "storeId": "ludwig"
     }
   ],
   "reviews": [
