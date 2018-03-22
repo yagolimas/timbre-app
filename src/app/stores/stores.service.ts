@@ -20,4 +20,16 @@ export class StoresService{
             .map(response => response.json())
             .catch(ErrorHandler.handlerError)
     }
+
+    getStoreById(id: string) : Observable<Store>{
+        return this.http.get(`${JSON_SERVER}/stores/${id}`)
+            .map(response => response.json())
+            .catch(ErrorHandler.handlerError)
+    }
+
+    reviewsOfStore(id: string) : Observable<any>{
+        return this.http.get(`${JSON_SERVER}/stores/${id}/reviews`)
+            .map(response => response.json())
+            .catch(ErrorHandler.handlerError)
+    }
 }

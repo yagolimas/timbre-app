@@ -65,7 +65,48 @@
       "description": "Bateria Preta Rogue",
       "price": 5.5,
       "storeId": "ludwig"
+    },
+    {
+      "id": "elvis",
+      "imagePath": "assets/img/instruments/drums/elvis.jpg",
+      "name": "DV Elvis Presley",
+      "description": "Disco de Vinil - Elvis Presley",
+      "price": 8.5,
+      "storeId": "hatcha"
+    },
+    {
+      "id": "eric",
+      "imagePath": "assets/img/instruments/drums/eric.jpg",
+      "name": "DV Eric",
+      "description": "Disco de Vinil - Eric",
+      "price": 6.5,
+      "storeId": "hatcha"
+    },
+    {
+      "id": "iron",
+      "imagePath": "assets/img/instruments/drums/iron.jpg",
+      "name": "DV Iron Maiden",
+      "description": "Disco de Vinil - IRON MAIDEN",
+      "price": 7.5,
+      "storeId": "hatcha"
+    },
+    {
+      "id": "little",
+      "imagePath": "assets/img/instruments/drums/little.jpg",
+      "name": "DV Little",
+      "description": "Disco de Vinil - Little",
+      "price": 5.5,
+      "storeId": "hatcha"
+    },
+    {
+      "id": "queen",
+      "imagePath": "assets/img/instruments/drums/queen.jpg",
+      "name": "DV Queen",
+      "description": "Disco de Vinil - Queen",
+      "price": 4.5,
+      "storeId": "hatcha"
     }
+
   ],
   "reviews": [
     {
@@ -73,161 +114,161 @@
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Tudo muito bom, entrega no tempo certo",
-      "restaurantId": "bread-bakery"
+      "storeId": "ludwig"
     },
     {
       "name": "Aline",
       "date": "2016-12-12T18:25:43",
       "rating": 3,
       "comments": "NÃO recomendo. O recheio é só um creme, não tem camarão e nem carne",
-      "restaurantId": "bread-bakery"
+      "storeId": "ludwig"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 2,
       "comments": "Não foi muito agradável ao nosso paladar, e eu e meu esposo no outro dia passamos super mal. Pode até ter sido outra coisa, mas...",
-      "restaurantId": "bread-bakery"
+      "storeId": "ludwig"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 5,
       "comments": "Nunca deixou na mão, comida sempre deliciosa.",
-      "restaurantId": "bread-bakery"
+      "storeId": "ludwig"
     },
     {
       "name": "Daniela",
       "date": "2017-01-23T18:25:43",
       "rating": 4,
       "comments": "Sanduíche muito bom! Já pedi diversas vezes sempre bom!",
-      "restaurantId": "burger-house"
+      "storeId": "hatcha"
     },
     {
       "name": "Laila",
       "date": "2017-02-02T18:25:43",
       "rating": 5,
       "comments": "Melhor hambúrguer que já provei. Vai ser difícil voltar para mc e bk",
-      "restaurantId": "burger-house"
+      "storeId": "hatcha"
     },
     {
       "name": "Suzana",
       "date": "2016-12-12T18:25:43",
       "rating": 3.5,
       "comments": "Meu sanduíche chegou frio e todo desmontado =\\",
-      "restaurantId": "burger-house"
+      "storeId": "hatcha"
     },
     {
       "name": "Eric",
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Excelente opção! Recomendo!",
-      "restaurantId": "coffee-corner"
+      "storeId": "hatcha"
     },
     {
       "name": "Amanda",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "Demorou muito e o café veio gelado",
-      "restaurantId": "coffee-corner"
+      "storeId": "rogue"
     },
     {
       "name": "Carla",
       "date": "2016-12-12T18:25:43",
       "rating": 4.8,
       "comments": "Tudo perfeito. Entrega, embalagem, comida. Resultado? Melhor custo beneficio",
-      "restaurantId": "coffee-corner"
+      "storeId": "rogue"
     },
     {
       "name": "Rodrigo",
       "date": "2016-12-12T18:25:43",
       "rating": 4,
       "comments": "Muito rápida a entrega, mas é caro.",
-      "restaurantId": "coffee-corner"
+      "storeId": "rogue"
     },
     {
       "name": "André",
       "date": "2016-12-12T18:25:43",
       "rating": 4.5,
       "comments": "Excelente como sempre!",
-      "restaurantId": "coffee-corner"
+      "storeId": "rogue"
     },
     {
       "name": "João",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
       "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a comida ainda chegou quentinha (e deliciosa). Estou sempre pedindo e recomendando",
-      "restaurantId": "green-food"
+      "storeId": "eleven"
     },
     {
       "name": "Marcelo",
       "date": "2017-02-02T18:25:43",
       "rating": 4.5,
       "comments": "Chegou muito rápido, antes mesmo da previsão",
-      "restaurantId": "green-food"
+      "storeId": "eleven"
     },
     {
       "name": "Fatinha",
       "date": "2017-01-23T18:25:43",
       "rating": 2,
       "comments": "Ñ gostei dos sabores q pedi e achei o preço muito elevado",
-      "restaurantId": "ice-cream"
+      "storeId": "eleven"
     },
     {
       "name": "Lucas",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "Esperar 1:45hr pra receber o pedido é INACEITÁVEL",
-      "restaurantId": "ice-cream"
+      "storeId": "eleven"
     },
     {
       "name": "Jacira",
       "date": "2017-02-01T18:25:43",
       "rating": 4.5,
       "comments": "Veio OK!",
-      "restaurantId": "ice-cream"
+      "storeId": "eleven"
     },
     {
       "name": "Ana",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
       "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
-      "restaurantId": "tasty-treats"
+      "storeId": "grey-audio"
     },
     {
       "name": "Larissa",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "A taxa de entrega poderia ser mais barata.",
-      "restaurantId": "tasty-treats"
+      "storeId": "grey-audio"
     },
     {
       "name": "Jarbas",
       "date": "2016-12-15T18:25:43",
       "rating": 4.7,
       "comments": "Excelente e chegou muito rápido!",
-      "restaurantId": "tasty-treats"
+      "storeId": "grey-audio"
     },
     {
       "name": "Rafaela",
       "date": "2017-01-12T18:25:43",
       "rating": 5,
       "comments": "Chegou rápido e perfeito!",
-      "restaurantId": "tasty-treats"
+      "storeId": "grey-audio"
     },
     {
       "name": "Julia",
       "date": "2016-12-12T18:25:43",
       "rating": 1.5,
       "comments": "Sempre gostei muito dos pedidos que eu fiz, mas dessa vez foi péssimo e decepcionou muito. Demorou 30min a mais pra chegar do que o tempo máximo esperado.",
-      "restaurantId": "tasty-treats"
+      "storeId": "grey-audio"
     },
     {
       "name": "Marília",
       "date": "2016-12-20T18:25:43",
       "rating": 4.5,
       "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (calda, crocante etc)",
-      "restaurantId": "tasty-treats"
+      "storeId": "grey-audio"
     }
   ],
   "orders": []
