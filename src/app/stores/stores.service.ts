@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 
-import { Store } from "./store/store.model";
-
 import { JSON_SERVER } from '../app.api';
 import { ErrorHandler } from '../app.error-handler';
+
+import { Store } from "./store/store.model";
+import { MenuItem } from '../store-detail/menu-item/menu-item.model';
 
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
@@ -29,6 +30,12 @@ export class StoresService{
 
     reviewsOfStore(id: string) : Observable<any>{
         return this.http.get(`${JSON_SERVER}/stores/${id}/reviews`)
+            .map(response => response.json())
+            .catch(ErrorHandler.handlerError)
+    }
+
+    menuOfStore(id: string) : Observable<MenuItem[]>{
+        return this.http.get(`${JSON_SERVER}/stores/${id}/instruments`)
             .map(response => response.json())
             .catch(ErrorHandler.handlerError)
     }

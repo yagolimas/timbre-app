@@ -44,7 +44,7 @@
   "instruments": [
     {
       "id": "ludwig",
-      "imagePath": "assets/img/instruments/drums/ludwing.jpg",
+      "imagePath": "assets/img/instruments/drums/ludwig.jpg",
       "name": "Bateria Ludwing",
       "description": "Bateria Azul Ludwig",
       "price": 8.7,
@@ -68,7 +68,7 @@
     },
     {
       "id": "elvis",
-      "imagePath": "assets/img/instruments/drums/elvis.jpg",
+      "imagePath": "assets/img/instruments/discs/elvis.jpg",
       "name": "DV Elvis Presley",
       "description": "Disco de Vinil - Elvis Presley",
       "price": 8.5,
@@ -76,7 +76,7 @@
     },
     {
       "id": "eric",
-      "imagePath": "assets/img/instruments/drums/eric.jpg",
+      "imagePath": "assets/img/instruments/discs/eric.jpg",
       "name": "DV Eric",
       "description": "Disco de Vinil - Eric",
       "price": 6.5,
@@ -84,7 +84,7 @@
     },
     {
       "id": "iron",
-      "imagePath": "assets/img/instruments/drums/iron.jpg",
+      "imagePath": "assets/img/instruments/discs/iron.jpg",
       "name": "DV Iron Maiden",
       "description": "Disco de Vinil - IRON MAIDEN",
       "price": 7.5,
@@ -92,7 +92,7 @@
     },
     {
       "id": "little",
-      "imagePath": "assets/img/instruments/drums/little.jpg",
+      "imagePath": "assets/img/instruments/discs/little.jpg",
       "name": "DV Little",
       "description": "Disco de Vinil - Little",
       "price": 5.5,
@@ -100,7 +100,7 @@
     },
     {
       "id": "queen",
-      "imagePath": "assets/img/instruments/drums/queen.jpg",
+      "imagePath": "assets/img/instruments/discs/queen.jpg",
       "name": "DV Queen",
       "description": "Disco de Vinil - Queen",
       "price": 4.5,

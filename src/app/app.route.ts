@@ -11,8 +11,8 @@ export const ROUTES : Routes = [
     { path: 'stores', component: StoresComponent },
     { path: 'stores/:id', component: StoreDetailComponent, 
         children:[
-            { path: '', redirectTo: 'menu', pathMatch: 'full'},
-            { path: 'menu', component: MenuComponent },
+            { path: '', redirectTo: 'instruments', pathMatch: 'full'},
+            { path: 'instruments', component: MenuComponent },
             { path: 'reviews', component: ReviewComponent }
     ]},
     { path: 'about', component: AboutComponent }
