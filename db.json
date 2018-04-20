@@ -106,7 +106,6 @@
       "price": 4.5,
       "storeId": "hatcha"
     }
-
   ],
   "reviews": [
     {
@@ -271,5 +270,62 @@
       "storeId": "grey-audio"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Acre",
+      "number": "161",
+      "optionalAdress": "Araras",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "elvis"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Em",
+      "number": "42",
+      "optionalAdress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "iron"
+        },
+        {
+          "quantity": 1,
+          "menuId": "queen"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua Teste",
+      "number": "22",
+      "optionalAdress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "iron"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "Rua Acre",
+      "number": "176",
+      "optionalAdress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "elvis"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
